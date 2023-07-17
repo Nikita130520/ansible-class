@@ -1,11 +1,11 @@
 [ .ssh] $ cd .. 
 
-[ansible] $ ansible all –-list-hosts check no of all nodes, hosts 
+[ansible] $ ansible all --list-hosts  /check no of all nodes, hosts 
 hosts (2): 
 172.31.41.240 
 172.31.41.248 
 
-[ansible] $ ansible anshu –-list-hosts check nodes inside group=anshu
+[ansible] $ ansible demo  --list-hosts   /check nodes inside group=anshu
 hosts (2): 
 172.31.41.240 
 172.31.41.248 
